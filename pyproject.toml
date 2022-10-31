@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "opiniunis-scraper"
+version = "0.1.0"
+description = "University data scraper/crawler for Opiniunis"
+authors = ["Axel Rodríguez Chang <axelrodriguez@pm.me>"]
+readme = "README.md"
+packages = [{include = "opiniunis_scraper"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Scrapy = "^2.6.2"
+pandas = "^1.4.4"
+lxml = "^4.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
